@@ -207,3 +207,35 @@ a {
         display: none;
     }
 }
+
+.hide {
+    display: none;
+  }
+  
+.myDIV:hover + .hide {
+    display: block;
+    color: black;
+    margin: solid 9px black;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.skills{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 10px 10px  rgb(3, 3, 3);
+    padding: 20px;
+    margin: 40px;
+    
+
+}
+.skills div{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.skills p{
+    font-weight: 600;
+}

@@ -72,14 +72,16 @@ p {
 
 .button {
     width: 200px;
-    height: 55px;
+    height: 60px;
     border-radius: 30px;
     background-color: coral;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
-    padding-top: 5px;
-    margin-top: 20px;
+    padding: 15px;
+    margin: 20px;
+    display: inline;
+
 }
 
 .button:hover {

@@ -239,3 +239,7 @@ a {
 .skills p{
     font-weight: 600;
 }
+
+span{
+    color: red;
+}
